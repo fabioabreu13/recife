@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -22,8 +20,35 @@ ul {
   list-style: none;
   gap: 3rem;
   align-items: center;
+  margin: 30px auto;
 }
-#roteiro h2{
+#roteiro h2 {
   display: flex;
   justify-content: center;
+  margin: 30px auto;
+}
+
+.container {
+  padding: 0 2.4rem;
+  width: 60%;
+}
+
+.container h3 {
+  margin: 30px auto;
+}
+.container p {
+  margin: 30px auto;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+
+  background-color: #121212;
+  color: white;
+  font-size: 1.6rem;
+
+  padding: 0 2.4rem;
 }
